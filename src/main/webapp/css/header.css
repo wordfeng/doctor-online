@@ -1,0 +1,212 @@
+/*--------------多级下拉菜单------------------*/
+html, body, div, p, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, select, button, textarea, iframe, table, th, td {
+	margin: 0;
+	padding: 0;
+	font-family: 'Microsoft Yahei', Tahoma, Helvetica, Arial, SimSun, sans-serif;
+}
+body {
+	background: #f1f1f1;
+}
+
+
+li {
+	list-style: none;
+}
+
+.float-l {
+	float: left;
+}
+
+.float-r {
+	float: right;
+}
+
+a,
+a:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.m-t-15 {
+	margin-top: 15px;
+}
+
+button {
+	outline: none !important;
+}
+/*开始*/
+.four-level-menu {
+    /* 导航条左边背景色 */
+	background: #459df5;
+	height: 40px;
+}
+
+.first-menu>li {
+	float: left;
+}
+
+.first-link {
+	padding: 10px 20px;
+    display: block;
+    /* 导航条右边背景色 */
+	/* background: #459df5; */
+	color: #fff;
+	font-weight: normal;
+	cursor: pointer;
+}
+
+.first-link.hover {
+	background: #fff;
+	color: #459df5;
+}
+
+
+/*二级菜单*/
+
+.second-menu {
+	width: 600px;
+	margin: 0 auto;
+	left: 50%;
+	margin-left: -300px;
+	position: absolute;
+	/* left: 50% - ; */
+    z-index: 999;		
+	background: rgb(255, 255, 255);
+	padding: 15px;
+	opacity: 1;
+	display: none;
+}
+
+.second-menu>li {
+	float: left;
+	width: 120px;
+	/* height: 300px; */
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
+
+.second-link {
+	color: #333;
+	font-weight: bold;
+	border-bottom: 1px solid #ddd;
+	padding: 7px 15px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.second-link:hover {
+	color: #459df5;
+}
+
+.third-menu>li {
+
+	position: relative;
+    z-index: 999;		
+}
+
+.third-link {
+	padding: 5px 15px;
+	display: block;
+	color: #666;
+}
+
+.third-link.hover {
+	background: #f3f3f3;
+	color: #459df5;
+    z-index: 999;		
+	border-radius: 4px;
+}
+
+.fourth-menu {
+	position: absolute;
+	background: #fff;
+	border: 1px solid #ddd;
+	padding: 10px 15px;
+	left: 125px;
+	display: none;
+	top: 0px;
+	width: 150px;
+	z-index: 999;
+	border-radius: 6px;
+	box-shadow: 1px 1px 7px #ddd;
+}
+
+.fourth-menu:before,
+.fourth-menu:after {
+	content: "";
+	display: block;
+	border-width: 10px;
+	position: absolute;
+	top: 8px;
+	left: -20px;
+	border-style: solid dashed dashed;
+	border-color: transparent #ddd transparent transparent;
+	font-size: 0;
+	line-height: 0;
+}
+
+.fourth-menu:after {
+	top: 10px;
+	left: -16px;
+	border-width: 8px;
+	border-color: transparent #fff transparent transparent;
+}
+
+.fourth-menu a {
+	display: block;
+	color: #666;
+	padding: 4px 0px;
+}
+
+.fourth-menu a:hover {
+	color: #459df5;
+    text-decoration: underline;   
+}
+/*===================多级下拉菜单============================*/
+
+
+/* -------------------第二款下拉菜单--------------------------------- */
+
+/* 容器 <div> - 需要定位下拉内容 */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* 下拉内容 (默认隐藏) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* 下拉菜单的链接 */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* 鼠标移上去后修改下拉菜单链接颜色 */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: #459df5;
+}
+
+/* 在鼠标移上去后显示下拉菜单 */
+.dropdown:hover .dropdown-content {
+    display: block;
+    z-index: 999;
+}
+/* ================================================ */
+
+.logo{
+    margin: 0px 100px 0px 30px;
+}
+
+.right{
+    float: right;
+}

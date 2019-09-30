@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>挂号</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
+    <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+
+    <style>
+        body {
+            /* Lato */
+            font-family: 微软雅黑, 'Open Sans', sans-sarif;
+            font-size: 16px;
+            /* background-color: #1F1F1F; */
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            margin: 0 auto;
+            max-width: 1000px;
+        }
+
+        .row {
+            width: 103%;
+            float: left;
+            margin: 110px -1.5%;
+        }
+
+        /*= common css to all effects =*/
+        .single-member {
+            width: 280px;
+            float: left;
+            margin: 30px 2.5%;
+            background-color: #fff;
+            text-align: center;
+            position: relative;
+        }
+
+        .member-image img {
+            max-width: 100%;
+            vertical-align: middle;
+        }
+
+        h3 {
+            font-size: 24px;
+            font-weight: normal;
+            margin: 10px 0 0;
+            text-transform: uppercase;
+        }
+
+        h5 {
+            font-size: 16px;
+            font-weight: 300;
+            margin: 0 0 15px;
+            line-height: 22px;
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+            padding: 0 30px;
+            margin-bottom: 10px;
+        }
+
+        .social-touch a {
+            display: inline-block;
+            width: 27px;
+            height: 26px;
+            vertical-align: middle;
+            margin: 0 2px;
+            background-image: url(../images/social-icons.png);
+            background-repeat: no-repeat;
+            opacity: 0.7;
+            transition: 0.3s;
+        }
+
+        .social-touch a:hover {
+            opacity: 1;
+            transition: 0.3s;
+        }
+
+        .fb-touch {
+            background-position: 0 0;
+        }
+
+        .tweet-touch {
+            background-position: -35px 0;
+        }
+
+        .linkedin-touch {
+            background-position: -71px 0;
+        }
+
+        .icon-colored .fb-touch {
+            background-position: 0 -27px;
+        }
+
+        .icon-colored .tweet-touch {
+            background-position: -35px -27px;
+        }
+
+        .icon-colored .linkedin-touch {
+            background-position: -71px -27px;
+        }
+
+        /*= common css to all effects end =*/
+        /*= effect-3 css =*/
+        .effect-3 {
+            max-height: 302px;
+            min-height: 302px;
+            overflow: hidden;
+        }
+
+        .effect-3 h3 {
+            padding-top: 7px;
+            line-height: 33px;
+        }
+
+        .effect-3 .member-image {
+            border-bottom: 5px solid #e9a284;
+            transition: 0.4s;
+            height: 212px;
+            width: 80%;
+            display: inline-block;
+            float: none;
+            vertical-align: middle;
+        }
+
+        .effect-3 .member-info {
+            transition: 0.4s;
+        }
+
+        .effect-3 .member-image img {
+            height: 98%;
+            width: 90%;
+            vertical-align: bottom;
+        }
+
+        .effect-3 .social-touch {
+            /* 卡片低颜色 */
+            background-color: #e9af96;
+            float: left;
+            left: 0;
+            bottom: 0;
+            overflow: hidden;
+            padding: 5px 0;
+            width: 100%;
+            transition: 0.4s;
+            text-align: center;
+        }
+
+        .effect-3:hover .member-image {
+            border-bottom: 0;
+            border-radius: 0 0 50px 50px;
+            height: 81px;
+            display: inline-block;
+            overflow: hidden;
+            width: 109px;
+            transition: 0.4s;
+        }
+
+        /*= effect-3 css end =*/
+        /*= Media Query 
+=============== */
+        @media only screen and (max-width: 980px) {
+            .row {
+                width: 100%;
+                margin: 110px 0;
+            }
+
+            .team-members {
+                text-align: center;
+            }
+
+            .single-member {
+                float: none;
+                display: inline-block;
+                vertical-align: bottom;
+            }
+        }
+
+        /*= Media Query End
+=================== */
+.social-touch a{
+    color: aqua;
+
+}
+    </style>
+</head>
+
+<body>
+        <header>
+                <script src="../js/header.js"></script>
+                <link rel="stylesheet" href="../css/header.css" />
+                <div class="four-level-menu">
+                    <ul class="first-menu">
+        
+        
+                        <li>
+                            <a class="logo" href="../index.html"><img src="../img/icon100.png"></a>
+                        </li>
+                        <li>
+        
+                        <li>
+                            <a class="first-link" href="../index.html">首页</a>
+                        </li>
+                        <li>
+                            <a class="first-link" href="../html/120.html">120急救</a>
+                        </li>
+                        <li>
+                            <a class="first-link" href="../html/guahao.html">在线挂号</a>
+                        </li>
+                        <li>
+                            <a class="first-link" href="../html/jiaohao.html">在线叫号</a>
+                        </li>
+        
+                        <li>
+                            <!--开始盖楼-->
+                            <a class="first-link">科室介绍</a>
+                            <ul class="second-menu">
+                                <!-- 开始二级菜单排布 -->
+                                <li>
+                                    <a class="second-link">临床科室</a>
+                                    <ul class="third-menu">
+                                        <li>
+                                            <a class="third-link">心血管内科</a>
+                                            <!-- <ul class="fourth-menu">
+                                                        <li><a>四级菜单</a></li>
+                                                        <li><a>四级菜单</a></li>
+                                                        <li><a>四级菜单</a></li>
+                                                        <li><a>四级菜单</a></li>
+                                                        <li><a>四级菜单</a></li>
+                                                    </ul> -->
+                                        </li>
+                                        <li>
+                                            <a class="third-link">血液内科</a>
+        
+                                        </li>
+                                        <li><a class="third-link">肿瘤内科</a></li>
+                                        <li><a class="third-link">血管外科</a></li>
+                                        <li><a class="third-link">胸外科</a></li>
+                                        <li><a class="third-link">妇产科</a></li>
+                                        <li><a class="third-link">皮肤科</a></li>
+                                        <li><a class="third-link">放疗科</a></li>
+                                        <li><a class="third-link">眼科</a></li>
+                                        <li><a class="third-link">肾脏科</a></li>
+        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="second-link" style="color: white">看不见我</a>
+                                    <ul class="third-menu">
+                                        <li><a class="third-link">肾脏内科</a></li>
+                                        <li><a class="third-link">急诊内科</a></li>
+                                        <li><a class="third-link">神经内科</a></li>
+                                        <li><a class="third-link">口腔科</a></li>
+                                        <li><a class="third-link">针灸按摩科</a></li>
+                                        <li><a class="third-link">耳鼻喉科</a></li>
+                                        <li><a class="third-link"  href="keshijianjie.html">消化内科</a></li>
+                                        <li><a class="third-link">骨科</a></li>
+                                        <li><a class="third-link">急诊科</a></li>
+        
+        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="second-link">医技科室</a>
+                                    <ul class="third-menu">
+                                        <li><a class="third-link">药学部</a></li>
+                                        <li><a class="third-link">放射科</a></li>
+                                        <li><a class="third-link">核医学科</a></li>
+                                        <li><a class="third-link">超声医学科</a></li>
+        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="second-link">其他科室</a>
+                                    <ul class="third-menu">
+                                        <li><a class="third-link">老年医学研究所</a></li>
+                                        <li><a class="third-link">临床检验中心</a></li>
+                                        <li><a class="third-link">期刊编辑部</a></li>
+                                        <li><a class="third-link">临床试验研究中心</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+        
+                        </li>
+                        <!--盖楼结束-->
+        
+                        <li>
+                            <div class="dropdown">
+                                <a class="first-link">监督</a>
+                                <ul>
+                                    <li class="dropdown-content">
+                                        <a class="third-link" href="../html/tousu.html">建议</a>
+                                        <a class="third-link" href="../htmljianyi.html">投诉</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+        
+                        <li><a class="first-link"></a> </li>
+                        <li><a class="first-link"></a> </li>
+                        <li><a class="first-link"></a> </li>
+                        <li><a class="first-link"></a> </li>
+                        <li><a class="first-link"></a> </li>
+                        <li><a class="first-link"></a> </li>
+                        <li><a class="first-link"></a> </li>
+                        <li><a class="first-link"></a> </li>
+                        <li><a class="first-link"></a> </li>
+                        <li><a class="first-link"></a> </li>
+                        <li><a class="first-link"></a> </li>
+                        <li><a class="first-link"></a> </li>
+        
+        
+                        <li>
+                            <a class="first-link" href="../html/login.html">登录</a>
+                        </li>
+                        <li>
+                            <a class="first-link" href="../html/login.html">注册</a>
+                        </li>
+        
+        
+        
+                    </ul>
+                </div>
+            </header>
+
+    
+    <div class="container">
+        <!-- effect-3 html -->
+        <div class="single-member effect-3">
+            <div class="member-image">
+                <img src="../img/doctor/jiaming.jpg" alt="Member">
+            </div>
+            <div class="member-info">
+                <h3>贾名</h3>
+                <h5>主治医师</h5>
+                <p style="padding-left: 5px;padding-right: 5px;">从事内科工作12年，主要研究脾胃病科、内分泌科疾病的中西医治疗，特别是脾胃病常见急症：如：消化道大出血、肝性脑病、肠梗塞、消化道溃疡等各种急慢性病的治疗。</p>
+                <br/><br/>
+                <div >
+                    <button class="social-touch" style="background:#64b2ff;border-color:#64b2ff; ">挂号</button>
+                </div>
+            </div>
+        </div>
+        <div class="single-member effect-3">
+            <div class="member-image">
+                <img src="../img/doctor/jiaming.jpg" alt="Member">
+            </div>
+            <div class="member-info">
+                <h3>贾名</h3>
+                <h5>主治医师</h5>
+                <p style="padding-left: 5px;padding-right: 5px;">从事内科工作12年，主要研究脾胃病科、内分泌科疾病的中西医治疗，特别是脾胃病常见急症：如：消化道大出血、肝性脑病、肠梗塞、消化道溃疡等各种急慢性病的治疗。</p>
+                <br/><br/>
+                <div >
+                    <button class="social-touch" style="background:#64b2ff;border-color:#64b2ff; ">挂号</button>
+                </div>
+            </div>
+        </div>
+        <div class="single-member effect-3">
+            <div class="member-image">
+                <img src="../img/doctor/jiaming.jpg" alt="Member">
+            </div>
+            <div class="member-info">
+                <h3>贾名</h3>
+                <h5>主治医师</h5>
+                <p style="padding-left: 5px;padding-right: 5px;">从事内科工作12年，主要研究脾胃病科、内分泌科疾病的中西医治疗，特别是脾胃病常见急症：如：消化道大出血、肝性脑病、肠梗塞、消化道溃疡等各种急慢性病的治疗。</p>
+                <br/><br/>
+                <div >
+                    <button class="social-touch" style="background:#64b2ff;border-color:#64b2ff; ">挂号</button>
+                </div>
+            </div>
+        </div>
+        <div class="single-member effect-3">
+            <div class="member-image">
+                <img src="../img/doctor/jiaming.jpg" alt="Member">
+            </div>
+            <div class="member-info">
+                <h3>贾名</h3>
+                <h5>主治医师</h5>
+                <p style="padding-left: 5px;padding-right: 5px;">从事内科工作12年，主要研究脾胃病科、内分泌科疾病的中西医治疗，特别是脾胃病常见急症：如：消化道大出血、肝性脑病、肠梗塞、消化道溃疡等各种急慢性病的治疗。</p>
+                <br/><br/>
+                <div >
+                    <button class="social-touch" style="background:#64b2ff;border-color:#64b2ff; ">挂号</button>
+                </div>
+            </div>
+        </div>
+        <div class="single-member effect-3">
+            <div class="member-image">
+                <img src="../img/doctor/jiaming.jpg" alt="Member">
+            </div>
+            <div class="member-info">
+                <h3>贾名</h3>
+                <h5>主治医师</h5>
+                <p style="padding-left: 5px;padding-right: 5px;">从事内科工作12年，主要研究脾胃病科、内分泌科疾病的中西医治疗，特别是脾胃病常见急症：如：消化道大出血、肝性脑病、肠梗塞、消化道溃疡等各种急慢性病的治疗。</p>
+                <br/><br/>
+                <div >
+                    <button class="social-touch" style="background:#64b2ff;border-color:#64b2ff; ">挂号</button>
+                </div>
+            </div>
+        </div>
+        <div class="single-member effect-3">
+            <div class="member-image">
+                <img src="../img/doctor/jiaming.jpg" alt="Member">
+            </div>
+            <div class="member-info">
+                <h3>贾名</h3>
+                <h5>主治医师</h5>
+                <p style="padding-left: 5px;padding-right: 5px;">从事内科工作12年，主要研究脾胃病科、内分泌科疾病的中西医治疗，特别是脾胃病常见急症：如：消化道大出血、肝性脑病、肠梗塞、消化道溃疡等各种急慢性病的治疗。</p>
+                <br/><br/>
+                <div >
+                    <button class="social-touch" style="background:#64b2ff;border-color:#64b2ff; ">挂号</button>
+                </div>
+            </div>
+        </div>
+        <!-- effect-3 html end -->
+
+    </div>
+    <!-- Team members structure start -->
+    </div>
+
+</body>
+
+</html>
