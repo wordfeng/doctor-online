@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh-cmn-Hans">
 
 <head>
@@ -6,10 +6,10 @@
     <title>在线医院</title>
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-        crossorigin="anonymous"></script>
+            crossorigin="anonymous"></script>
     <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous">
+          crossorigin="anonymous">
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
             crossorigin="anonymous"></script>
@@ -161,50 +161,50 @@
         </div>
     </header>
 </div>
-    <!-- 轮播图 -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
-    <script src="https://unpkg.com/swiper@5.0.3/js/swiper.min.js"></script>
+<!-- 轮播图 -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+<script src="https://unpkg.com/swiper@5.0.3/js/swiper.min.js"></script>
 
-    <div id="certify">
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img src="img/h4.jpg">
-                    <p>医院大楼</p>
-                </div>
-                <div class="swiper-slide">
-                    <img src="img/h5.jpg">
-                    <p>医师风采</p>
-                </div>
-                <div class="swiper-slide">
-                    <img src="img/h2.jpg">
-                    <p>护士站</p>
-                </div>
-                <div class="swiper-slide">
-                    <img src="img/h3.jpg">
-                    <p>美容外科</p>
-                </div>
-                <div class="swiper-slide">
-                    <img src="img/h1.jpg">
-                    <p>导诊服务台</p>
-                </div>
-
+<div id="certify">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="img/h4.jpg">
+                <p>医院大楼</p>
             </div>
+            <div class="swiper-slide">
+                <img src="img/h5.jpg">
+                <p>医师风采</p>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/h2.jpg">
+                <p>护士站</p>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/h3.jpg">
+                <p>美容外科</p>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/h1.jpg">
+                <p>导诊服务台</p>
+            </div>
+
         </div>
-        <div class="swiper-pagination"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
     </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>
 
-    <script src="js/index.js"></script>
-    <!-- 轮播图over -->
+<script src="js/index.js"></script>
+<!-- 轮播图over -->
 
-    <!-- <div id="turn_to_someone">
-        <center> --------------叫号区域--------------</center>
-    </div> -->
+<!-- <div id="turn_to_someone">
+    <center> --------------叫号区域--------------</center>
+</div> -->
 
 
-<div class="chengjiu"> 
+<div class="chengjiu">
 
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <div class="product-number-info" id="productNumber">
@@ -228,25 +228,25 @@
             </ul>
         </div>
     </div>
-    
+
     <!--数字滚动插件countUp-->
     <script src="js/count.js" type="text/javascript" charset="utf-8"></script>
     <script type="text/javascript">
-    
-    productNumber=function (){
-        var arr = [];
-        $('#productNumber li').each(function(i, dom) {
-            var iDom = $(dom).find('i'),
-                decimals = 0,
-                sum = iDom.data('sum');
-            //初始化传参，参数为上面注释中的参数    
-            arr.push(new CountUp(iDom.attr('id'), 0, sum, decimals, 4, {
-                useEasing: true,//效果
-                separator: ''//数字分隔符
-            }));
-            arr[i].start();
-        });
-    }();			
+
+        productNumber=function (){
+            var arr = [];
+            $('#productNumber li').each(function(i, dom) {
+                var iDom = $(dom).find('i'),
+                    decimals = 0,
+                    sum = iDom.data('sum');
+                //初始化传参，参数为上面注释中的参数
+                arr.push(new CountUp(iDom.attr('id'), 0, sum, decimals, 4, {
+                    useEasing: true,//效果
+                    separator: ''//数字分隔符
+                }));
+                arr[i].start();
+            });
+        }();
     </script>
 </div>
 

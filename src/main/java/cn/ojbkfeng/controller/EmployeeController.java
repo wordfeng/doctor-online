@@ -162,7 +162,7 @@ public class EmployeeController {
      *
      * @return
      */
-    @RequestMapping("/list")
+    @RequestMapping("/emp")
     public String getEmps(@RequestParam(value = "pn", defaultValue = "1") Integer pn, Model model) {
 /*        //引入分页插件pageHelper
         // 查询前调用，传入页码以及每页的大小
@@ -177,7 +177,7 @@ public class EmployeeController {
         PageInfo page = new PageInfo(emps, 5);
         model.addAttribute("pageInfo", page);
         //返回到list.jsp展示
-        return "list";
+        return "emp";
     }
 
 }

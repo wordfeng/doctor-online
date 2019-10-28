@@ -12,7 +12,16 @@ public class DoctorService {
     DoctorMapper doctorMapper;
 
 
+
+    /**
+     * 检查登录信息是否正确
+     * @param uername
+     * @param password
+     * @return
+     */
     public boolean checkUserAndPwd(String uername, String password) {
+
+
         DoctorExample example = new DoctorExample();
         DoctorExample.Criteria criteria = example.createCriteria();
         criteria.andUsernameEqualTo(uername);

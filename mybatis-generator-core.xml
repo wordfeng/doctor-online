@@ -37,7 +37,11 @@
 <!--        <table tableName="hospital_emp" domainObjectName="Employee"></table>-->
 <!--        <table tableName="hospital_dept" domainObjectName="Department"></table>-->
 
-        <table tableName="doctor_role" domainObjectName="Doctor"></table>
+<!--        <table tableName="doctor_role" domainObjectName="Doctor"></table>-->
+<!--        <table tableName="biaoyu" domainObjectName="BiaoYu"></table>-->
+        <table tableName="patient" domainObjectName="Patient"></table>
+<!--        <table tableName="" domainObjectName=""></table>-->
     </context>
+
 
 </generatorConfiguration>

@@ -96,14 +96,18 @@
         <url-pattern>/*</url-pattern>
     </filter-mapping>
 
-<!--    <filter>-->
-<!--        <filter-name>springSecurityFilterChain</filter-name>-->
-<!--        <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>-->
-<!--    </filter>-->
-<!--    <filter-mapping>-->
-<!--        <filter-name>springSecurityFilterChain</filter-name>-->
-<!--&lt;!&ndash;        <url-pattern>/*</url-pattern>&ndash;&gt;-->
-<!--    </filter-mapping>-->
+    <!--    <filter>-->
+    <!--        <filter-name>springSecurityFilterChain</filter-name>-->
+    <!--        <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>-->
+    <!--    </filter>-->
+    <!--    <filter-mapping>-->
+    <!--        <filter-name>springSecurityFilterChain</filter-name>-->
+    <!--&lt;!&ndash;        <url-pattern>/*</url-pattern>&ndash;&gt;-->
+    <!--    </filter-mapping>-->
+    <session-config>
+        <!--   单位分钟  60*24 *30   -->
+        <session-timeout>43200</session-timeout>
+    </session-config>
 
 </web-app>
 
