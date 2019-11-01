@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>填写挂号信息</title>
+		<style>
+			.row{
+				min-width: 100px;
+				/* border: 1px solid black; */
+			}
+			.formtips{
+				/* border: 1px solid red; */
+				min-width: 120px;
+				display:inline-block;
+			}
+			select{
+				background-color: rgb(220,220,220);
+				border: 0px;
+				padding: 5px;
+				margin: 0px;
+				margin-top: 5px;
+				border-radius: 10px;
+				outline: none;
+				min-width: 210px;
+			}
+			option{
+				background-color: rgb(240,240,240);
+			}
+			
+			form input{
+				/* border-radius: 5px; */
+				/* border-top-width: 0px;
+				border-left-width: 0px;
+				border-right-width: 0px;
+				border-bottom-color: black;
+				border-bottom: 1px solid; */
+				/* outline: none; */
+				background-color: rgb(220,220,220);
+				border: 0px;
+				padding: 5px;
+				margin: 5px;;
+				border-radius: 10px;
+				outline: none;
+				min-width: 200px;
+			}
+			
+			
+		</style>
+	</head>
+	<body>
+		<form >
+			<div class="row">
+				<span class="formtips">姓名：</span><input placeholder="姓名"/>
+			</div>
+			<div class="row">
+				<span class="formtips">年龄：</span ><input placeholder="0-150"/>
+			</div>
+			<div class="row">
+				<span class="formtips">电话/手机号码：</span><input placeholder="18875280716"/>
+			</div>
+			<div class="row">
+				<span class="formtips">家庭地址：</span><input placeholder="省/市/县/村"/>
+			</div>
+			<div>
+				<span class="formtips">家庭地址：</span>
+				<select name="">
+					<option value="">---请选择---</option>
+					<option value="">---请选择---</option>
+					<option value="">---请选择---</option>
+				</select>
+			</div>
+			
+		</form>
+	</body>
+</html>
