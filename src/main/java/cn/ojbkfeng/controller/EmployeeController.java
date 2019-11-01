@@ -2,7 +2,7 @@ package cn.ojbkfeng.controller;
 
 
 import cn.ojbkfeng.bean.Employee;
-import cn.ojbkfeng.bean.Msg;
+import cn.ojbkfeng.utils.ReturnMsg;
 import cn.ojbkfeng.service.EmployeeService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
@@ -45,10 +45,10 @@ public class EmployeeController {
      */
     @RequestMapping(value = "/emp/{empId}",method = RequestMethod.DELETE)
     @ResponseBody
-    public Msg deleteEmp(@PathVariable("empId") Integer empId){
+    public ReturnMsg deleteEmp(@PathVariable("empId") Integer empId){
 //        System.out.println("要删除！！"+empId);
         employeeService.deleteEmp(empId);
-        return Msg.success();
+        return ReturnMsg.success();
     }
 
 
@@ -73,11 +73,11 @@ public class EmployeeController {
      */
     @RequestMapping(value = "/emp/{empId}", method = RequestMethod.PUT)
     @ResponseBody
-    public Msg updateEmp(Employee employee){
+    public ReturnMsg updateEmp(Employee employee){
         System.out.println("============="+employee);
 
         employeeService.updateEmployee(employee);
-        return Msg.success();
+        return ReturnMsg.success();
     }
 
     /**
@@ -85,9 +85,9 @@ public class EmployeeController {
      */
     @RequestMapping(value = "/emp/{id}", method = RequestMethod.GET)
     @ResponseBody
-    public Msg getEmpInfo(@PathVariable("id") Integer id) {
+    public ReturnMsg getEmpInfo(@PathVariable("id") Integer id) {
         Employee employee = employeeService.getEmpInfo(id);
-        return Msg.success().add("empInfo", employee);
+        return ReturnMsg.success().add("empInfo", employee);
     }
 
 
@@ -96,21 +96,21 @@ public class EmployeeController {
      */
     @RequestMapping(value = "/checkEmail")
     @ResponseBody
-    public Msg checkEmail(@RequestParam("email") String email) {
+    public ReturnMsg checkEmail(@RequestParam("email") String email) {
 
         logs.trace("======================="+email);
         //ajax前端请求校验  未添加前端ajax
         String reg = "^([a-z0-9_\\.-]+)@([\\da-z\\.-]+)\\.([a-z\\.]{2,6})$";
         if (email.matches(reg)==false) {
-            return Msg.fail().add("email_fail", "email格式错误");
+            return ReturnMsg.fail().add("email_fail", "email格式错误");
         }
 
 
         boolean result = employeeService.checkEmail(email);
         if (result == false) {
-            return Msg.fail();
+            return ReturnMsg.fail();
         } else {
-            return Msg.success();
+            return ReturnMsg.success();
         }
     }
 
@@ -122,19 +122,19 @@ public class EmployeeController {
      */
     @RequestMapping(path = "/emp", method = RequestMethod.POST)
     @ResponseBody
-    public Msg addNewEmp(@Valid Employee employee, BindingResult result) {
+    public ReturnMsg addNewEmp(@Valid Employee employee, BindingResult result) {
 
 
 //        System.out.println(employee);
         if (result.hasErrors()) {
-            return Msg.fail();
+            return ReturnMsg.fail();
         }
 
         if (!employeeService.checkEmail(employee.getEmail())) {
-            return Msg.fail();
+            return ReturnMsg.fail();
         }
         employeeService.addNewEmp(employee);
-        return Msg.success();
+        return ReturnMsg.success();
     }
 
 
@@ -146,7 +146,7 @@ public class EmployeeController {
      */
     @RequestMapping(path = "/emps")
     @ResponseBody
-    public Msg getEmpsWithJson(@RequestParam(value = "pageNum", defaultValue = "1") Integer pageNum, Model model) {
+    public ReturnMsg getEmpsWithJson(@RequestParam(value = "pageNum", defaultValue = "1") Integer pageNum, Model model) {
 //        log.trace("dddddddddddddddddddddddddddddddd");
 
         //每页数据
@@ -154,7 +154,7 @@ public class EmployeeController {
         List<Employee> emps = employeeService.getAllEmps();
         //页数
         PageInfo page = new PageInfo(emps, 5);
-        return Msg.success().add("pageInfo", page);
+        return ReturnMsg.success().add("pageInfo", page);
     }
 
     /**

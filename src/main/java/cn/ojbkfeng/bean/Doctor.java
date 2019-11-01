@@ -1,6 +1,9 @@
 package cn.ojbkfeng.bean;
 
 public class Doctor extends DoctorKey {
+
+    private String username;
+
     private String password;
 
     private String experience;
@@ -39,4 +42,13 @@ public class Doctor extends DoctorKey {
     public void setPic(String pic) {
         this.pic = pic == null ? null : pic.trim();
     }
+
+    public String getName() {
+        return username;
+    }
+
+    public void setName(String name) {
+        this.username = name;
+    }
+
 }

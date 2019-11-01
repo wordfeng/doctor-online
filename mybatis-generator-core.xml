@@ -39,7 +39,8 @@
 
 <!--        <table tableName="doctor_role" domainObjectName="Doctor"></table>-->
 <!--        <table tableName="biaoyu" domainObjectName="BiaoYu"></table>-->
-        <table tableName="patient" domainObjectName="Patient"></table>
+<!--        <table tableName="patient" domainObjectName="Patient"></table>-->
+<!--        <table tableName="drug_storage" domainObjectName="Drugs"></table>-->
 <!--        <table tableName="" domainObjectName=""></table>-->
     </context>
 

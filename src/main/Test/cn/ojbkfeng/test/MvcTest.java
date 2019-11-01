@@ -1,5 +1,6 @@
 package cn.ojbkfeng.test;
 
+import cn.ojbkfeng.bean.Drugs;
 import cn.ojbkfeng.bean.Employee;
 import com.github.pagehelper.PageInfo;
 import org.junit.Before;
@@ -24,7 +25,7 @@ import java.util.List;
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @WebAppConfiguration //有了这个注解可以直接装配web的ioc
-@ContextConfiguration(locations = {"classpath:applicationContext.xml", "classpath:WEB-INF/dispatcherServlet-servlet.xml"})
+@ContextConfiguration(locations = {"classpath:applicationContext.xml", "file:src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml"})
 //file:src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml
 public class MvcTest {
 
@@ -38,7 +39,18 @@ public class MvcTest {
     public void initMockMvc() {
         mockMvc = MockMvcBuilders.webAppContextSetup(context).build();
     }
+    @Test
+    public void testSearch() throws Exception{
+        MvcResult result = mockMvc.perform(MockMvcRequestBuilders
+                .get("/search")
+                .param("name","碳酸氢钠"))
+                .andReturn();
+        MockHttpServletRequest request = result.getRequest();
+        Object medicine = request.getAttribute("medicine");
+        System.out.println(medicine);
 
+
+    }
     @Test
     public void testPage() throws Exception {
         //模拟请求拿到返回值
