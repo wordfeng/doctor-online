@@ -338,10 +338,10 @@
 							<div id="clear">清空</div>
 						</td>
 					</tr>
-					<tr>
+				<!-- 	<tr>
 						<td>aaaaaaaaaaaa</td>
 						<td>666</td>
-					</tr>
+					</tr> -->
 				</table>
 			</div>
 		</div>
@@ -500,29 +500,23 @@
 				});
 			}
 
-			var nextone = document.getElementsByClassName("nextOne");
-			// nextone.addEventListener("click", function(){alert(1);});
-
-			function nextPatients() {
+			//下一个病人,将当前病人cure设置为1
+			$(".nextOne").mousedown(function(){
+				// alert($("#tname").text());
 				$.ajax({
-					url: "/nextOne",
-					data: {
-						'name': $(),
-						'phone': $()
-					},
-					type: "GET",
-					success: function() {
-						getWaitingPatients();
+					url:"/nextOne/"+$("#tname").text()+"/"+$("#tphone").text(),
+					success:function(){
+						alert("诊断完成进行下一个");
+						location.reload();
+						//诊断结果!!!
 					}
 				});
-			}
+			});
 
 			/**
 			 * 监听输入框
-			 * <div class="choose-drugs">
-					<div class="choose-btn">阿莫西林克拉维酸钾</div>
 			 */
-			var searches;
+			// var searches;
 			$(function() {
 				$("#autoSearchDrugs").bind('input porpertychange', function() {
 					$.ajax({
@@ -539,30 +533,65 @@
 									$(".choose-drugs").append("<div class='choose-btn' drugs-name='"+result.extend.searches[i].medicine+"'>" + result.extend.searches[i].medicine +
 										"</div>");
 								}
+								//单次搜索药物记录
+								searches = result.extend.searches;
 								//动态绑定
 								$(".choose-btn").on('click',function(event){
 									var clickedButtonDOM=event.target; //获取按钮的DOM元素
 									var drugsName = clickedButtonDOM.getAttribute('drugs-name');//获取指定的元素
 									console.log(drugsName);
-									alert(drugsName);
+									$("#kai-what-yao").append("<tr><td>"+drugsName+"</td><td>"+getYaoGuiGe(drugsName)+"</td><td>1</td></tr>");
+									// alert(drugsName);result.extend.searches[i].guige
 								});
 								
-								searches = result.extend.searches;
+								//找到对应药物的规格
+								function getYaoGuiGe(name){
+									for(var i = result.extend.searches.length;i-->0;){
+										// result.extend.searches[i].guige
+										if(result.extend.searches[i].medicine == name){
+											return result.extend.searches[i].guige;
+										}
+									}
+								}
+								
 							}
 						}
 					});
 
 				});
 			});
+			
+			//找到默认展示的药物对应药物的规格
+			// var guige;
+			// function getDefaultYaoGuiGe(name){
+			// 	$.ajax({
+			// 		url: "/search/" +name,
+			// 		success: function(result) {
+			// 			return guige = result.extend.searches[0];
+			// 			console.log("规格："+guige.guige);
+			// 		}
+			// 	});
+				
+			// 	return guige;
+			// }
 
 			/**
-			 * 绑定choose-btn点击药名 添加到右侧
+			 * 绑定默认choose-btn点击药名 添加到右侧
 			 */
 			$(".choose-btn").on('click',function(event){
 				var clickedButtonDOM=event.target; //获取按钮的DOM元素
 				var drugsName = clickedButtonDOM.getAttribute('drugs-name');//获取指定的元素
+				var guige;
 				console.log(drugsName);
-				alert(drugsName);
+				$.ajax({
+					url: "/search/" +drugsName,
+					success: function(result) {
+						guige = result.extend.searches[0];
+						console.log("规格："+guige.guige);
+					}
+				});
+				$("#kai-what-yao").append("<tr><td>"+drugsName+"</td><td>"+guige.guige+"</td><td>1</td></tr>");
+				// alert(drugsName);result.extend.searches[i].guige
 			});
 
 

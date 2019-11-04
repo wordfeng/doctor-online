@@ -1,0 +1,16 @@
+GET http://localhost:8080/patients/贾名
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-28T104916.404.html
+
+###
+
+GET http://localhost:8080/patients/贾名
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-28T104802.404.html
+
+###
+

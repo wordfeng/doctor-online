@@ -43,12 +43,16 @@
 				outline: none;
 				min-width: 200px;
 			}
+			#forms{
+				/* display: b; */
+			}
 			
 			
 		</style>
 	</head>
 	<body>
-		<form >
+		<center>
+		<form id="forms">
 			<div class="row">
 				<span class="formtips">姓名：</span><input placeholder="姓名"/>
 			</div>
@@ -56,14 +60,20 @@
 				<span class="formtips">年龄：</span ><input placeholder="0-150"/>
 			</div>
 			<div class="row">
+				<span class="formtips">性别：</span ><input placeholder="0-1"/>
+			</div>
+			<div class="row">
 				<span class="formtips">电话/手机号码：</span><input placeholder="18875280716"/>
+			</div>
+			<div class="row">
+				<span class="formtips">身份证：</span ><input placeholder="612322199815155150"/>
 			</div>
 			<div class="row">
 				<span class="formtips">家庭地址：</span><input placeholder="省/市/县/村"/>
 			</div>
 			<div>
-				<span class="formtips">家庭地址：</span>
-				<select name="">
+				<span class="formtips">科室选择：</span>
+				<select id="choose-keshi">
 					<option value="">---请选择---</option>
 					<option value="">---请选择---</option>
 					<option value="">---请选择---</option>
@@ -71,5 +81,23 @@
 			</div>
 			
 		</form>
+		</center>
+		
+		<script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+		<script>
+			$.ajax({
+				url:"/depts",
+				success:function(res){
+					// alert(res.extend.depts[0].deptName);
+					$("#choose-keshi").empty();
+					for(var i =0;i<res.extend.total;i++){
+						// alert(res.extend.depts[i].deptName);
+						$("#choose-keshi").append("<option value=''>"+res.extend.depts[i].deptName+"</option>");
+					}
+						
+				}
+			});
+		</script>
+		
 	</body>
 </html>

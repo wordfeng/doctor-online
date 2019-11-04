@@ -17,7 +17,7 @@ import java.util.Random;
 
 
 /**
- * /nextOne                            GET     更新病人看病状态                            Done
+ * /nextOne/{name}/{phone}             GET     更新病人看病状态                            Done
  * /yanyu                              GET     谚语 提醒医生 为人名服务                    Done
  * /patients?doctorName=               GET     获取医生对应病人列表                        Done
  * /getPatientInfo?name= &phone=       GET     获取病人信息                                Done
@@ -43,6 +43,10 @@ public class ZhenDuanController {
 //        return map;
 //    }
 
+    @RequestMapping(value = "/setResult",method = RequestMethod.GET)
+    public void setResult(){
+
+    }
 
     @RequestMapping(value = "/getDoctorInfo/{name}/{email}",method = RequestMethod.GET)
     public ReturnMsg getDoctorInfo(@PathVariable("name")String name, @PathVariable("email") String email){
@@ -97,8 +101,8 @@ public class ZhenDuanController {
      * @param phone
      * @return
      */
-    @RequestMapping(value = "/nextOne", method = RequestMethod.GET)
-    public ReturnMsg nextOne(@RequestParam String name, @RequestParam String phone) {
+    @RequestMapping(value = "/nextOne/{name}/{phone}", method = RequestMethod.GET)
+    public ReturnMsg nextOne(@PathVariable String name, @PathVariable String phone) {
         Patient patient = new Patient();
         patient.setName(name);
         patient.setPhoneNumber(phone);

@@ -6,7 +6,270 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcb54419-9e1a-4ce4-a2cb-5e90f6490998" name="Default Changelist" comment="" />
+    <list default="true" id="dcb54419-9e1a-4ce4-a2cb-5e90f6490998" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/25893d13-48a7-404b-8c55-ad4ee99f912f.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9aa2ce14-1a8f-4ccf-8a82-0cea7f0e173c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-10-28T104802.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-10-28T104916.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/bean/BiaoYu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/bean/BiaoYuExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/bean/Drugs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/bean/DrugsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/bean/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/bean/PatientExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/dao/BiaoYuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/dao/DrugsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/dao/PatientMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/utils/CountClassInclude.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/utils/FFF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/utils/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/utils/ReturnMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/utils/Son.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/BiaoYuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/DrugsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/PatientMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/html/jvm指令手册.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/doctor/cure.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/manage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/doctor-online.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/bean/BiaoYu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/bean/BiaoYuExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/bean/BiaoYuExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/bean/BiaoYuExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/bean/BiaoYuExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/bean/Department.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/bean/DepartmentExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/bean/DepartmentExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/bean/DepartmentExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/bean/DepartmentExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/bean/Doctor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/bean/DoctorExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/bean/DoctorExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/bean/DoctorExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/bean/DoctorExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/bean/DoctorKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/bean/Drugs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/bean/DrugsExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/bean/DrugsExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/bean/DrugsExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/bean/DrugsExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/bean/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/bean/EmployeeExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/bean/EmployeeExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/bean/EmployeeExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/bean/EmployeeExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/bean/Patient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/bean/PatientExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/bean/PatientExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/bean/PatientExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/bean/PatientExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/controller/DepartmentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/controller/DoctorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/controller/EmployeeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/controller/PatientController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/controller/ZhenDuanController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/dao/BiaoYuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/dao/DepartmentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/dao/DoctorMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/dao/DrugsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/dao/EmployeeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/dao/PatientMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/service/DepartmentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/service/DoctorService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/service/EmployeeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/service/LoginService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/service/ZhenDuanService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/utils/CountClassInclude$1InnerMehod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/utils/CountClassInclude$Inner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/utils/CountClassInclude$StaticInner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/utils/CountClassInclude.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/utils/FFF.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/utils/Operator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/utils/ReturnMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/ojbkfeng/utils/Son.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dbconfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/BiaoYuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/DepartmentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/DoctorMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/DrugsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/PatientMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/META-INF/doctor-online.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/bean/BiaoYu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/bean/BiaoYuExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/bean/BiaoYuExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/bean/BiaoYuExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/bean/BiaoYuExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/bean/Department.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/bean/DepartmentExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/bean/DepartmentExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/bean/DepartmentExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/bean/DepartmentExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/bean/Doctor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/bean/DoctorExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/bean/DoctorExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/bean/DoctorExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/bean/DoctorExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/bean/DoctorKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/bean/Drugs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/bean/DrugsExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/bean/DrugsExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/bean/DrugsExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/bean/DrugsExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/bean/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/bean/EmployeeExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/bean/EmployeeExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/bean/EmployeeExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/bean/EmployeeExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/bean/Patient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/bean/PatientExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/bean/PatientExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/bean/PatientExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/bean/PatientExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/controller/DepartmentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/controller/DoctorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/controller/EmployeeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/controller/PatientController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/controller/ZhenDuanController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/dao/BiaoYuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/dao/DepartmentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/dao/DoctorMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/dao/DrugsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/dao/EmployeeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/dao/PatientMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/service/DepartmentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/service/DoctorService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/service/EmployeeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/service/LoginService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/service/ZhenDuanService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/utils/CountClassInclude$1InnerMehod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/utils/CountClassInclude$Inner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/utils/CountClassInclude$StaticInner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/utils/CountClassInclude.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/utils/FFF.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/utils/Operator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/utils/ReturnMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/cn/ojbkfeng/utils/Son.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/dbconfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/mapper/BiaoYuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/mapper/DepartmentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/mapper/DoctorMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/mapper/DrugsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/mapper/PatientMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/classes/test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/dispatcherServlet-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/lib/aspectjweaver-1.8.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/lib/c3p0-0.9.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/lib/classmate-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/lib/hibernate-validator-5.4.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/lib/jackson-annotations-2.9.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/lib/jackson-core-2.9.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/lib/jackson-databind-2.9.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/lib/jsqlparser-2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/lib/mchange-commons-java-0.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/lib/mybatis-3.4.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/lib/mybatis-generator-core-1.3.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/lib/mybatis-spring-2.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/lib/mysql-connector-java-5.1.41.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/lib/pagehelper-5.1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/lib/spring-aop-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/lib/spring-aspects-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/lib/spring-beans-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/lib/spring-context-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/lib/spring-core-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/lib/spring-expression-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/lib/spring-jdbc-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/lib/spring-tx-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/lib/spring-web-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/lib/spring-webmvc-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/views/emp.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/views/guahaoservice.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/views/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/views/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/views/shouye.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/css/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/css/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/css/public.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/html/120.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/html/doctorMain.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/html/guahao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/html/jianyi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/html/jiaohao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/html/jvm指令手册.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/html/keshijianjie.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/html/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/html/pindian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/html/tousu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/html/zhenduan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/img/doctor/cure.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/img/doctor/jiaming.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/img/h1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/img/h2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/img/h3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/img/h4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/img/h5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/img/hospital.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/img/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/img/icon100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/img/j1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/img/j2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/img/j3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/img/jiantou.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/img/manage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/img/rightMenu/ewm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/img/rightMenu/online.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/img/rightMenu/rncall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/img/rightMenu/rnmsg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/img/rightMenu/rnphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/img/rightMenu/rnqq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/img/rightMenu/rntop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/img/rjiantou.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/img/下载.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/index-putong.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/js/count.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/js/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/doctor-online/js/rightAsk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/doctor-online.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/cn/ojbkfeng/test/MBGTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/cn/ojbkfeng/test/MapperTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/cn/ojbkfeng/test/MvcTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator-core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator-core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/controller/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/controller/DepartmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/controller/PatientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/controller/PatientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/controller/ZhenDuanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/controller/ZhenDuanController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/guahao.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/html/guahao.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/jiaohao.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/html/jiaohao.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/jiaohaoForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/zhenduan.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/html/zhenduan.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path=".idea/workspace.xml" />
@@ -133,11 +396,113 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/bean/Checked.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/CheckedMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2475">
+              <caret line="175" column="29" selection-start-line="175" selection-start-column="14" selection-end-line="175" selection-end-column="29" />
+              <folding>
+                <element signature="n#sql#0;n#mapper#0;n#!!top" />
+                <element signature="n#sql#1;n#mapper#0;n#!!top" />
+                <element signature="n#sql#2;n#mapper#0;n#!!top" />
+                <element signature="n#select#0;n#mapper#0;n#!!top" />
+                <element signature="n#delete#0;n#mapper#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/dao/CheckedMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/controller/PatientController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="625">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/controller/ZhenDuanController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="375">
+              <caret line="63" column="42" lean-forward="true" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="800">
+              <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/controller/DoctorController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/controller/EmployeeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1625">
+              <caret line="78" column="33" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/service/EmployeeService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="925">
+              <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
+              <folding>
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#594#595#0" expanded="true" />
+                <element signature="e#1118#1119#0" expanded="true" />
+                <element signature="e#1178#1179#0" expanded="true" />
+                <element signature="e#1231#1232#0" expanded="true" />
+                <element signature="e#1299#1300#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/controller/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -176,8 +541,6 @@
         <option value="$PROJECT_DIR$/src/main/Test/cn/ojbkfeng/test/Test.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/guahaoservice.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/controller/PatientController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/controller/EmployeeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/controller/ZhenDuan.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/controller/BiaoYuController.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/service/EmployeeService.java" />
@@ -196,7 +559,6 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/service/ZhenDuanService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/service/DoctorService.java" />
-        <option value="$PROJECT_DIR$/mybatis-generator-core.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/bean/Doctor.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/utils/ReturnMsg.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/utils/FFF.java" />
@@ -207,7 +569,13 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/utils/model/AIPlayer.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/utils/model/HumanPlayer.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/utils/model/Porker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/controller/DepartmentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/controller/ZhenDuanController.java" />
+        <option value="$PROJECT_DIR$/mybatis-generator-core.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/controller/EmployeeController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/CheckedMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/dao/CheckedMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/ojbkfeng/controller/PatientController.java" />
       </list>
     </option>
   </component>
@@ -237,6 +605,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -276,11 +645,34 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ojbkfeng" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="doctor-online" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-online" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ojbkfeng" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-online" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-online" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-online" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-online" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -417,7 +809,7 @@
       </method>
     </configuration>
     <configuration name="Tomcat 8.5.41" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.41" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://10.25.208.66:8080" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="update-resources" />
@@ -568,9 +960,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MBGTest" />
         <item itemvalue="Application.Operator" />
         <item itemvalue="Application.Son" />
-        <item itemvalue="Application.MBGTest" />
         <item itemvalue="JUnit.MvcTest.testSearch" />
         <item itemvalue="Application.Test" />
       </list>
@@ -611,7 +1003,10 @@
       <workItem from="1572411969287" duration="27619000" />
       <workItem from="1572508888618" duration="2198000" />
       <workItem from="1572579240362" duration="2030000" />
-      <workItem from="1572616803300" duration="3273000" />
+      <workItem from="1572616803300" duration="10831000" />
+      <workItem from="1572666921060" duration="1079000" />
+      <workItem from="1572669078584" duration="896000" />
+      <workItem from="1572675489537" duration="2113000" />
     </task>
     <task id="LOCAL-00001" summary="create repo and upload some already exists file">
       <created>1569808221878</created>
@@ -676,7 +1071,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572617341571</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="增加诊断台">
+      <created>1572620347731</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1572620347731</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -700,7 +1102,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144629000" />
+    <option name="totallyTimeSpent" value="156275000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -713,9 +1115,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.23937677" visible="true" weight="0.21045576" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.23937677" visible="true" weight="0.24865952" />
       <window_info id="Structure" order="1" sideWeight="0.7606232" side_tool="true" weight="0.20241287" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -726,7 +1127,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49597856" weight="0.3838527" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4966488" visible="true" weight="0.43909347" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4966488" weight="0.28470254" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
@@ -769,56 +1170,14 @@
     <MESSAGE value="change jackson version" />
     <MESSAGE value="delete target" />
     <MESSAGE value="add console for doctor" />
-    <option name="LAST_COMMIT_MESSAGE" value="add console for doctor" />
+    <MESSAGE value="增加诊断台" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加诊断台" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/Test/cn/ojbkfeng/test/MapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Test/cn/ojbkfeng/test/MBGTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/dao/EmployeeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/controller/BiaoYuController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/bean/BiaoYu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/dao/DepartmentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/dao/BiaoYuMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
           <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/controller/DepartmentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -859,9 +1218,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/jiaohaoForm.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/jiaohaoForm.html" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/html/doctorMain.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -1003,26 +1360,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/service/ZhenDuanService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="86" column="29" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#1150#1151#0" expanded="true" />
-            <element signature="e#1208#1209#0" expanded="true" />
-            <element signature="e#1592#1593#0" expanded="true" />
-            <element signature="e#1627#1628#0" expanded="true" />
-            <element signature="e#1791#1792#0" expanded="true" />
-            <element signature="e#1848#1849#0" expanded="true" />
-            <element signature="e#1510#1511#0" expanded="true" />
-            <element signature="e#1561#1562#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/dao/DrugsMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1037,28 +1374,6 @@
           <folding>
             <element signature="n#build#0;n#project#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/service/EmployeeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="41" column="27" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="41" selection-end-column="27" />
-          <folding>
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#1118#1119#0" expanded="true" />
-            <element signature="e#1178#1179#0" expanded="true" />
-            <element signature="e#1231#1232#0" expanded="true" />
-            <element signature="e#1299#1300#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-generator-core.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="43" column="63" lean-forward="true" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -1124,13 +1439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/controller/DoctorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/utils/FFF.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1182,23 +1490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/controller/EmployeeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/utils/Son.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -1206,24 +1497,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/controller/PatientController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/utils/model/HumanPlayer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/utils/model/AIPlayer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/utils/model/Game.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/utils/model/Porker.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/controller/DepartmentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="-125">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/service/ZhenDuanService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/utils/model/HumanPlayer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/utils/model/AIPlayer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/utils/model/Game.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/utils/model/Porker.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/Test/cn/ojbkfeng/test/MBGTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/bean/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-generator-core.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="43" column="60" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/bean/Checked.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/CheckedMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2475">
+          <caret line="175" column="29" selection-start-line="175" selection-start-column="14" selection-end-line="175" selection-end-column="29" />
+          <folding>
+            <element signature="n#sql#0;n#mapper#0;n#!!top" />
+            <element signature="n#sql#1;n#mapper#0;n#!!top" />
+            <element signature="n#sql#2;n#mapper#0;n#!!top" />
+            <element signature="n#select#0;n#mapper#0;n#!!top" />
+            <element signature="n#delete#0;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/dao/CheckedMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/controller/DoctorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/controller/EmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1625">
+          <caret line="78" column="33" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/service/EmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
+          <folding>
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#1118#1119#0" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
+            <element signature="e#1231#1232#0" expanded="true" />
+            <element signature="e#1299#1300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/controller/PatientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/ojbkfeng/controller/ZhenDuanController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="375">
+          <caret line="63" column="42" lean-forward="true" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

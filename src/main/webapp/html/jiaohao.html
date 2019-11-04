@@ -2,6 +2,7 @@
 <head>
     <meta charset="utf8">
     <title>在线叫号</title>
+	<script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
 
     <style>
         .keshi {
@@ -165,7 +166,7 @@
 
 <div style="width: 80%;">
     <div class="keshi" style="margin-top: 110px;">
-        <div class="keshi_title" style="margin-left: 20px;" >内科叫号区</div>
+        <div class="keshi_title" data-keshi="内科叫号区" style="margin-left: 20px;" >内科叫号区</div>
         <div class="dengdai">张继科</div>
         <div class="dengdai">隔壁老王</div>
         <div class="dengdai">张老二</div>
@@ -187,15 +188,15 @@
 
     </div>
     <div class="keshi">
-        <div class="keshi_title">肠胃科叫号区</div>
-        <div class="dengdai">张继科</div>
-        <div class="dengdai">隔壁老王</div>
-        <div class="dengdai">张老二</div>
-        <div class="dengdai">张继科</div>
-        <div class="dengdai">隔壁老王</div>
+        <div class="keshi_title" data-keshi="骨科叫号区" id="gu-ke-hao">骨科叫号区</div>
+        <div class="dengdai" id="dengdai1">张继科</div>
+        <div class="dengdai" id="dengdai2">隔壁老王</div>
+        <div class="dengdai" id="dengdai3">张老二</div>
+        <div class="dengdai" id="dengdai4">张继科</div>
+        <div class="dengdai" id="dengdai5">隔壁老王</div>
     </div>
     <div class="keshi">
-        <div class="keshi_title">眼耳鼻喉科叫号区</div>
+        <div class="keshi_title" data-keshi="眼耳鼻喉科叫号区">眼耳鼻喉科叫号区</div>
         <div class="dengdai">张继科</div>
         <div class="dengdai">隔壁老王</div>
         <div class="dengdai">张老二</div>
@@ -221,7 +222,7 @@
 
     </div>
     <div class="keshi">
-        <div class="keshi_title">神经科叫号区</div>
+        <div class="keshi_title" data-keshi="神经科叫号区">神经科叫号区</div>
         <div class="dengdai">张继科</div>
         <div class="dengdai">隔壁老王</div>
         <div class="dengdai">张老二</div>
@@ -248,6 +249,29 @@
     </div>
 </div>
 
+<script>
+	
+	updateJiaoHao();
+	setInterval(function() {
+			updateJiaoHao();
+		},
+		5000);
+		
+	function updateJiaoHao(){
+		for(var i=6;i-->1;)
+			$("#dengdai"+i).empty();
+		$.ajax({
+			url:"/patients",
+			success:function(res){
+				if(res.code=100){
+					for(var i=0;i<res.extend.totalPatient;i++)
+						$("#dengdai"+i).text(res.extend.waitingPatient[i].name);
+				}
+			}
+		});
+		
+	}
+</script>
 
 
 </body>

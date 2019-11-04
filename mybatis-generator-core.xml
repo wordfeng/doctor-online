@@ -42,6 +42,8 @@
 <!--        <table tableName="patient" domainObjectName="Patient"></table>-->
 <!--        <table tableName="drug_storage" domainObjectName="Drugs"></table>-->
 <!--        <table tableName="" domainObjectName=""></table>-->
+<!--        <table tableName="checked" domainObjectName="Checked"></table>-->
+        <table tableName="" domainObjectName=""></table>
     </context>
 
 
