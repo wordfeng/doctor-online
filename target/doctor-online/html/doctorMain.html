@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>选择业务</title>
+
+		<script src="https://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+
+		<style>
+			.choice {
+				/* border: 2px solid #D5D5D5; */
+				min-width: 100%;
+				min-height: 100%;
+				/* 让子元素垂直,水平居中 */
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+
+			.cure,
+			.manage {
+
+				border: 2px solid #aaa;
+				width: 300px;
+				height: 300px;
+				border-radius: 150px;
+				float: left;
+				margin: 100px;
+				/* background: #00AADC; */
+				/* background-image: url('../img/doctor/jiaming.jpg'); */
+				box-shadow: 0px 10px 10px #888888;
+				overflow: hidden;
+				background-repeat: no repeat;
+
+				/* display: flex;
+				align-items: center;
+				justify-content: center; */
+			}
+
+			.fuck {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+
+			.cure:hover,
+			.manage:hover {
+				/* border-radius: 0;
+				background: url(../img/doctor/cure.jpg); */
+				/* cursor: pointer; */
+			}
+
+			.management {
+				background-color: lightsalmon;
+			}
+
+			.tips {
+				font-size: 1.2em;
+				color: #459DF5;
+			}
+
+			#checkLogin {}
+		</style>
+	</head>
+	<body>
+		<header>
+			<script src="../js/header.js"></script>
+			<link rel="stylesheet" href="../css/header.css" />
+			<div class="four-level-menu">
+				<ul class="first-menu">
+
+
+
+					<li>
+						<a class="logo" href="../index.html"><img src="../img/icon100.png"></a>
+					</li>
+
+
+
+					<li>
+						<a class="first-link" href="../index.html">首页</a>
+					</li>
+
+					<li>
+						<a class="first-link" href="../html/120.html">120急救</a>
+					</li>
+
+					<li>
+						<a class="first-link" href="../html/guahao.html">在线挂号</a>
+					</li>
+
+					<li>
+						<a class="first-link" href="../html/jiaohao.html">在线叫号</a>
+					</li>
+
+					<li>
+						<!--开始盖楼-->
+						<a class="first-link">科室介绍</a>
+						<ul class="second-menu">
+							<!-- 开始二级菜单排布 -->
+							<li>
+								<a class="second-link">临床科室</a>
+								<ul class="third-menu">
+									<li>
+										<a class="third-link">心血管内科</a>
+										<!-- <ul class="fourth-menu">
+                                            <li><a>四级菜单</a></li>
+                                            <li><a>四级菜单</a></li>
+                                            <li><a>四级菜单</a></li>
+                                            <li><a>四级菜单</a></li>
+                                            <li><a>四级菜单</a></li>
+                                        </ul> -->
+									</li>
+									<li>
+										<a class="third-link">血液内科</a>
+
+									</li>
+									<li><a class="third-link">肿瘤内科</a></li>
+									<li><a class="third-link">血管外科</a></li>
+									<li><a class="third-link">胸外科</a></li>
+									<li><a class="third-link">妇产科</a></li>
+									<li><a class="third-link">皮肤科</a></li>
+									<li><a class="third-link">放疗科</a></li>
+									<li><a class="third-link">眼科</a></li>
+									<li><a class="third-link">肾脏科</a></li>
+
+								</ul>
+							</li>
+							<li>
+								<a class="second-link" style="color: white">看不见我</a>
+								<ul class="third-menu">
+									<li><a class="third-link">肾脏内科</a></li>
+									<li><a class="third-link">急诊内科</a></li>
+									<li><a class="third-link">神经内科</a></li>
+									<li><a class="third-link">口腔科</a></li>
+									<li><a class="third-link">针灸按摩科</a></li>
+									<li><a class="third-link">耳鼻喉科</a></li>
+									<li><a class="third-link" href="keshijianjie.html">消化内科</a></li>
+									<li><a class="third-link">骨科</a></li>
+									<li><a class="third-link">急诊科</a></li>
+
+
+								</ul>
+							</li>
+							<li>
+								<a class="second-link">医技科室</a>
+								<ul class="third-menu">
+									<li><a class="third-link">药学部</a></li>
+									<li><a class="third-link">放射科</a></li>
+									<li><a class="third-link">核医学科</a></li>
+									<li><a class="third-link">超声医学科</a></li>
+
+								</ul>
+							</li>
+							<li>
+								<a class="second-link">其他科室</a>
+								<ul class="third-menu">
+									<li><a class="third-link">老年医学研究所</a></li>
+									<li><a class="third-link">临床检验中心</a></li>
+									<li><a class="third-link">期刊编辑部</a></li>
+									<li><a class="third-link">临床试验研究中心</a></li>
+								</ul>
+							</li>
+						</ul>
+
+						<!--盖楼结束-->
+					</li>
+
+
+					<li>
+						<div class="dropdown">
+							<a class="first-link">监督</a>
+							<ul>
+								<li class="dropdown-content">
+									<a class="third-link" href="../html/tousu.html">建议</a>
+									<a class="third-link" href="../htmljianyi.html">投诉</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+
+					<li><a class="first-link"></a></li>
+					<li><a class="first-link"></a></li>
+					<li><a class="first-link"></a></li>
+					<li><a class="first-link"></a></li>
+					<li><a class="first-link"></a></li>
+					<li><a class="first-link"></a></li>
+					<li><a class="first-link"></a></li>
+					<li><a class="first-link"></a></li>
+					<li><a class="first-link"></a></li>
+					<li><a class="first-link"></a></li>
+					<li><a class="first-link"></a></li>
+					<li><a class="first-link"></a></li>
+
+					<!-- ==================================================================================================================================================== -->
+
+
+
+					<li>
+						<a class="first-link" id="checkLogin" href="../html/login.html">登录</a>
+					</li>
+					<li>
+						<a class="first-link" id="checkLogin2" href="../html/login.html">注册</a>
+					</li>
+
+					<!-- 配对结束标签  <ul class="first-menu"> -->
+				</ul>
+			</div>
+		</header>
+
+
+
+
+
+
+
+		<div class="choice">
+			<p class="tips">点击进入诊断工作 →</p>
+			<div class="cure">
+				<div class="clickdiv">
+					<!-- 点击进入 -->
+				</div>
+				<div>
+					<a href="/html/zhenduan.html"><img src="../img/doctor/jiaming.jpg" class="fuck" /></a>
+				</div>
+
+
+			</div>
+			<div class="manage">
+				<div class="management">
+
+					<a href="/emp"><img src="../img/manage.jpg" class="fuck" /></a>
+				</div>
+			</div>
+			<p class="tips">← 点击进入人员管理</p>
+		</div>
+
+		<script>
+			
+			function getQueryString(name) {
+				var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i');
+				var r = window.location.search.substr(1).match(reg);
+				if (r != null) {
+					return unescape(r[2]);
+				}
+				return null;
+			}
+			
+			// alert(getQueryString("name"));
+
+
+			// alert(getQueryString("name"));
+			
+			//检查登录
+			if(getQueryString("name")!=null){
+				$("#checkLogin").text("欢迎您的到来！！");
+				$("#checkLogin2").text('');
+			}
+				
+			
+		</script>
+
+
+	</body>
+
+
+</html>

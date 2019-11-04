@@ -1,0 +1,121 @@
+{
+  "code": 100,
+  "msg": "处理成功",
+  "extend": {
+    "pageInfo": {
+      "total": 102,
+      "list": [
+        {
+          "empId": 1,
+          "empName": "张三",
+          "gender": "男",
+          "email": null,
+          "dId": 1,
+          "department": {
+            "deptId": 1,
+            "deptName": "开发部"
+          }
+        },
+        {
+          "empId": 2,
+          "empName": "老王",
+          "gender": "女",
+          "email": "yf0nuttiness@qq.com",
+          "dId": 2,
+          "department": {
+            "deptId": 2,
+            "deptName": "测试部"
+          }
+        },
+        {
+          "empId": 3,
+          "empName": "897420",
+          "gender": "女",
+          "email": "897420@qq.com",
+          "dId": 2,
+          "department": {
+            "deptId": 2,
+            "deptName": "测试部"
+          }
+        },
+        {
+          "empId": 4,
+          "empName": "a27d61",
+          "gender": "女",
+          "email": "a27d61@qq.com",
+          "dId": 2,
+          "department": {
+            "deptId": 2,
+            "deptName": "测试部"
+          }
+        },
+        {
+          "empId": 5,
+          "empName": "bb7aa2",
+          "gender": "女",
+          "email": "bb7aa2@qq.com",
+          "dId": 2,
+          "department": {
+            "deptId": 2,
+            "deptName": "测试部"
+          }
+        },
+        {
+          "empId": 6,
+          "empName": "cf5643",
+          "gender": "女",
+          "email": "cf5643@qq.com",
+          "dId": 2,
+          "department": {
+            "deptId": 2,
+            "deptName": "测试部"
+          }
+        },
+        {
+          "empId": 7,
+          "empName": "c63444",
+          "gender": "女",
+          "email": "c63444@qq.com",
+          "dId": 2,
+          "department": {
+            "deptId": 2,
+            "deptName": "测试部"
+          }
+        },
+        {
+          "empId": 8,
+          "empName": "ebe095",
+          "gender": "女",
+          "email": "ebe095@qq.com",
+          "dId": 2,
+          "department": {
+            "deptId": 2,
+            "deptName": "测试部"
+          }
+        }
+      ],
+      "pageNum": 1,
+      "pageSize": 8,
+      "size": 8,
+      "startRow": 1,
+      "endRow": 8,
+      "pages": 13,
+      "prePage": 0,
+      "nextPage": 2,
+      "isFirstPage": true,
+      "isLastPage": false,
+      "hasPreviousPage": false,
+      "hasNextPage": true,
+      "navigatePages": 5,
+      "navigatepageNums": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "navigateFirstPage": 1,
+      "navigateLastPage": 5
+    }
+  }
+}
