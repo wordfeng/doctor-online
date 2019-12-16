@@ -7,6 +7,9 @@ import org.apache.ibatis.session.SqlSession;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
@@ -34,7 +37,9 @@ public class MapperTest {
     @Test
     public void TestCurd() {
         //创建spring ioc容器
-//        ApplicationContext ioc = new ClassPathXmlApplicationContext("applicationContext.xml");
+        ApplicationContext ioc = new ClassPathXmlApplicationContext("applicationContext.xml");
+//        ioc.getBean()
+//@Bean
 //        //从容器中获取mapper
 //        DepartmentMapper bean = ioc.getBean(DepartmentMapper.class);
         System.out.println(departmentMapper);
